@@ -1,0 +1,21 @@
+{
+  "name": "PROgrammer",
+  "homepage": "https://github.com/ricochen/PROgrammer",
+  "authors": [
+    "Rico Chen"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "angular": "^1.5.5"
+  }
+}

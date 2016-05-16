@@ -1,0 +1,24 @@
+{
+  "name": "PROgrammer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricochen/PROgrammer.git"
+  },
+  "keywords": [],
+  "author": "Rico Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricochen/PROgrammer/issues"
+  },
+  "homepage": "https://github.com/ricochen/PROgrammer#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "node": "0.0.0"
+  }
+}
