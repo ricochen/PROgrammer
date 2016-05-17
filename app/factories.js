@@ -17,7 +17,7 @@ angular.module('programmer.factories', [])
 
 .factory('Codeschool', function () {
   var codeschoolQuiz = function(scope, callback) {
-    if (scope.question1 === '{age:20}' && scope.question2 === '20') {
+    if (scope.question1 === 'var myObj = {age: 20}' && scope.question2 === '20') {
       alert('All questions correct, you pass!');
       callback();
     } else {
