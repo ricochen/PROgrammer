@@ -65,7 +65,22 @@ angular.module('programmer.factories', [])
 
 .factory('Javascriptissexy', function () {
   var javascriptissexyQuiz = function(scope, callback) {
-    if (scope.question1 === 'array 1: length=5 last=j,o,n,e,s' && scope.question2 === 'array 2: length=5 last=j,o,n,e,s') {
+    if (scope.question1 === '30' && scope.question2 === 'Alice says hi') {
+      alert('All questions correct, you pass!');
+      callback();
+    } else {
+      alert('Try again');
+    }
+  };
+
+  return {
+    javascriptissexyQuiz: javascriptissexyQuiz
+  };
+})
+
+.factory('Createapp', function () {
+  var javascriptissexyQuiz = function(scope, callback) {
+    if (scope.question1 === '30' && scope.question2 === 'Alice says hi') {
       alert('All questions correct, you pass!');
       callback();
     } else {

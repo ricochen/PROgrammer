@@ -1,0 +1,28 @@
+<div>
+  <form ng-submit="javascriptissexyQuiz()">
+  <h3>Javascript is Sexy Quiz</h3>
+
+    <h3>After the follwing code runs, what will be the value of result?</h3>
+    <pre>
+    var x = 30;
+    function get () { return x; }
+    var result = get(20);</pre>
+    <input type="text" ng-model="question1" required><br/>
+
+    <h3>What message will eventually be alerted?</h3>
+    <pre>
+    var name = "Window";
+    var alice = {
+      name: "Alice",
+      sayHi: function() {
+        alert(this.name + " says hi");
+      }
+    };
+    var bob = { name: "Bob" };
+
+    setTimeout(alice.sayHi(), 1000);</pre>
+    <input type="text" ng-model="question2" required><br/>
+
+    <button>Submit</button>
+ </form>
+</div>

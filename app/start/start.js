@@ -1,14 +1,8 @@
-angular.module('programmer.start', ['programmer.factories'])
+angular.module('programmer.start', [])
 
 .controller('StartController', function ($scope, $location, Start) {
 
-  $scope.frontend = function() {
-    Start.frontend();
-    $location.path('/codecademy');
-  };
-
-  $scope.backend = function() {
-    Start.backend();
+  $scope.start = function() {
     $location.path('/codecademy');
   };
 });
