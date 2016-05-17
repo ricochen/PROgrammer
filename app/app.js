@@ -3,8 +3,10 @@ angular.module('programmer', [
   'programmer.start',
   'programmer.codecademy',
   'programmer.codecademyQuiz',
-  // 'programmer.codeschool',
-  // 'programmer.codeschoolQuiz',
+  'programmer.codeschool',
+  'programmer.codeschoolQuiz',
+  'programmer.coderbyte',
+  'programmer.coderbyteQuiz',
   'ngRoute'
 ])
 .config(function($routeProvider) {
@@ -28,5 +30,13 @@ angular.module('programmer', [
     .when('/codeschoolQuiz', {
       templateUrl: 'app/codeschool/codeschoolQuiz.html',
       controller: 'CodeschoolQuizController'
+    })
+    .when('/coderbyte', {
+      templateUrl: 'app/coderbyte/coderbyte.html',
+      controller: 'CoderbyteController'
+    })
+    .when('/coderbyteQuiz', {
+      templateUrl: 'app/coderbyte/coderbyteQuiz.html',
+      controller: 'CoderbyteQuizController'
     })
 });
