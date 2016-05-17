@@ -1,14 +1,11 @@
 angular.module('programmer.createapp', [])
 
-.controller('CreateappController', function ($scope, $location, Createapp) {
-
+.controller('CreateappController', function ($scope, $location) {
   $scope.frontend = function() {
-    Createapp.frontend();
-    $location.path('/frontend');
+    $location.path('/frontendapp');
   };
 
   $scope.backend = function() {
-    Createapp.backend();
-    $location.path('/backend');
+    $location.path('/backendapp');
   };
 });

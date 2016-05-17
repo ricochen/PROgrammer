@@ -21,7 +21,9 @@ button {
   box-shadow: 0 9px #999;
 }
 
-button:hover {background-color: gray}
+button:hover {
+  background-color: gray
+}
 
 button:active {
   box-shadow: 0 5px #666;

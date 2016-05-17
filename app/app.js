@@ -9,6 +9,7 @@ angular.module('programmer', [
   'programmer.coderbyteQuiz',
   'programmer.javascriptissexy',
   'programmer.javascriptissexyQuiz',
+  'programmer.createapp',
   'ngRoute'
 ])
 .config(function($routeProvider) {
@@ -49,12 +50,16 @@ angular.module('programmer', [
       templateUrl: 'app/javascriptissexy/javascriptissexyQuiz.html',
       controller: 'JavascriptissexyQuizController'
     })
+    .when('/createapp', {
+      templateUrl: 'app/createapp/createapp.html',
+      controller: 'CreateappController'
+    })
     .when('/frontendapp', {
       templateUrl: 'app/createapp/frontendapp.html',
-      controller: 'FrontendappController'
+      controller: 'CreateappController'
     })
     .when('/backendapp', {
       templateUrl: 'app/createapp/backendapp.html',
-      controller: 'BackendappController'
+      controller: 'CreateappController'
     })
 });

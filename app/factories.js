@@ -1,23 +1,5 @@
 angular.module('programmer.factories', [])
 
-.factory('Start', function () {
-  var choice;
-
-  var frontend = function() {
-    choice = 'frontend';
-  };
-
-  var backend = function() {
-    choice = 'backend';
-  };
-
-  return {
-    frontend: frontend,
-    backend: backend,
-    choice: choice
-  };
-})
-
 .factory('Codecademy', function () {
   var codecademyQuiz = function(scope, callback) {
     if (scope.question1 === 'Hello World' && scope.question2 === 'true') {
@@ -64,21 +46,6 @@ angular.module('programmer.factories', [])
 })
 
 .factory('Javascriptissexy', function () {
-  var javascriptissexyQuiz = function(scope, callback) {
-    if (scope.question1 === '30' && scope.question2 === 'Alice says hi') {
-      alert('All questions correct, you pass!');
-      callback();
-    } else {
-      alert('Try again');
-    }
-  };
-
-  return {
-    javascriptissexyQuiz: javascriptissexyQuiz
-  };
-})
-
-.factory('Createapp', function () {
   var javascriptissexyQuiz = function(scope, callback) {
     if (scope.question1 === '30' && scope.question2 === 'Alice says hi') {
       alert('All questions correct, you pass!');
