@@ -1,11 +1,7 @@
-* {
-  font-family: Arial, Helvetica, sans-serif
-}
-
 body {
   text-align: center;
-  color: white;
   margin-top: 10em;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 h1 {
@@ -16,7 +12,7 @@ input {
   margin-bottom: 10px;
 }
 
-.video {
+.bg {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -57,7 +53,7 @@ button:active {
 }
 
 a {
-  color: #00FFFF;
+  color: blue;
   text-decoration: none;
 }
 
